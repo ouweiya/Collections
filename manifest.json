@@ -1,6 +1,6 @@
 {
-  "name": "Chrome Collections",
-  "description": "收集知识片段",
+  "name": "__MSG_extension_name__",
+  "description": "__MSG_extension_desc__",
   "version": "1.0.0",
   "icons": {
     "128": "assets/128.png",
@@ -19,7 +19,15 @@
       "run_at": "document_start"
     }
   ],
-  "default_locale": "en",
-  "permissions": ["storage", "tabs", "declarativeContent", "contextMenus", "<all_urls>"],
+  "default_locale": "zh_CN",
+  "permissions": [
+    "storage",
+    "tabs",
+    "declarativeContent",
+    "contextMenus",
+    "<all_urls>",
+    "bookmarks",
+    "chrome://favicon/"
+  ],
   "manifest_version": 2
 }
